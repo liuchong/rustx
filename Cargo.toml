@@ -1,0 +1,19 @@
+[package]
+name = "rustx"
+version = "0.0.0"
+authors = ["Liu Chong <mail@liuchong.io>"]
+edition = "2018"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/liuchong/rustx"
+homepage = "https://github.com/liuchong/rustx"
+description = """
+Rustx invoke cargo-script.
+"""
+keywords = ["cargo", "script", "cargo-script", "rustx", "shebang"]
+
+[package.metadata.x]
+lint = "cargo clippy --verbose --all-targets --all-features -- -D warnings"
+test = "cargo test --verbose --all --release"
+build = "cargo build --verbose --all --release"
+
+[dependencies]
