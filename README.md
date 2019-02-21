@@ -1,6 +1,10 @@
-# reventsource
+# rustx
 
 [![Build Status](https://travis-ci.org/liuchong/rustx.svg?branch=master)](https://travis-ci.org/liuchong/rustx)
+[![APACHE licensed](https://img.shields.io/badge/license-apache%202.0-blue.svg)](./LICENSE-APACHE)
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE-MIT)
+[![crates.io](https://meritbadge.herokuapp.com/rustx)](https://crates.io/crates/rustx)
+[![Released API docs](https://docs.rs/rustx/badge.svg)](https://docs.rs/rustx)
 
 Rustx invoke cargo-script.
 
