@@ -1,6 +1,6 @@
 # rustx
 
-[![Build Status](https://travis-ci.org/liuchong/rustx.svg?branch=master)](https://travis-ci.org/liuchong/rustx)
+[![Build Status](https://github.com/liuchong/rustx/actions/workflows/rust.yml/badge.svg)](https://github.com/liuchong/rustx/actions/workflows/rust.yml)
 [![APACHE licensed](https://img.shields.io/badge/license-apache%202.0-blue.svg)](./LICENSE-APACHE)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE-MIT)
 [![crates.io](https://meritbadge.herokuapp.com/rustx)](https://crates.io/crates/rustx)
