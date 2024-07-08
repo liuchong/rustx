@@ -3,7 +3,7 @@
 [![Build Status](https://github.com/liuchong/rustx/actions/workflows/rust.yml/badge.svg)](https://github.com/liuchong/rustx/actions/workflows/rust.yml)
 [![APACHE licensed](https://img.shields.io/badge/license-apache%202.0-blue.svg)](./LICENSE-APACHE)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE-MIT)
-[![crates.io](https://meritbadge.herokuapp.com/rustx)](https://crates.io/crates/rustx)
+[![crates.io](https://img.shields.io/crates/v/rustx.svg)](https://crates.io/crates/rustx)
 [![Released API docs](https://docs.rs/rustx/badge.svg)](https://docs.rs/rustx)
 
 Rustx invoke cargo-script.
