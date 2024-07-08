@@ -8,7 +8,7 @@
 
 Rustx invoke cargo-script.
 
-<https://doc.rust-lang.org/reference/crates-and-source-files.html>
+<https://doc.rust-lang.org/reference/input-format.html>
 
 ## Usage
 
