@@ -6,18 +6,34 @@
 [![crates.io](https://img.shields.io/crates/v/rustx.svg)](https://crates.io/crates/rustx)
 [![Released API docs](https://docs.rs/rustx/badge.svg)](https://docs.rs/rustx)
 
-Rustx invoke cargo-script.
+Rustx runs self-contained Rust scripts.
 
 <https://doc.rust-lang.org/reference/input-format.html>
 
 ## Usage
 
-1. `cargo install rustx`, `cargo install cargo-script`
+1. `cargo install rustx`
 
 2. create a file, for example, `hello.rs` as below, then `chmod +x hello.rs`, `./hello.rs`.
 
 ``` rust
 #!/usr/bin/env rustx
+
+fn main() {
+    println!("Hello!");
+}
+```
+
+Scripts can embed Cargo manifest data in the same file:
+
+``` rust
+#!/usr/bin/env rustx
+---cargo
+[package]
+edition = "2021"
+
+[dependencies]
+---
 
 fn main() {
     println!("Hello!");

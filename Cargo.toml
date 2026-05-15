@@ -7,7 +7,7 @@ license = "MIT OR Apache-2.0"
 repository = "https://github.com/liuchong/rustx"
 homepage = "https://github.com/liuchong/rustx"
 description = """
-Rustx invoke cargo-script.
+Run self-contained Rust scripts.
 """
 keywords = ["cargo", "script", "cargo-script", "rustx", "shebang"]
 
